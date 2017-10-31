@@ -1,4 +1,4 @@
-#Introduction
+## Introduction
 Using the UNIX command line to get information from files. 
 
 1. Looking at the <b>chipotle.csv</b> using the head and tails commands:
