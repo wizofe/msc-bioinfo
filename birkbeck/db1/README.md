@@ -34,7 +34,7 @@ It is beneficial to know how to use the terminal, as it is based on the basic Un
 You are lucky! No need to install any external software. A terminal emulator is included, as those systems are based on Unix/BSD Unix.
 
 To access the remote server do the following:
-- Open a new terminal window (on mac just hit Apple+Spacebar and type terminal, if you are in Linux I assume you know already how to ;) )
+- Open a new terminal window (on mac just hit ⌘ + Space and type terminal, if you are in Linux I assume you know already how to ;) )
 
 - Create a secure connection between your machine and the Birkbeck Crystallography server (let's call it the 'remote machine/server'):
 
