@@ -22,7 +22,7 @@ Command-line interfaces respond to commands. These are short words which may som
 No, this isn't a philosophy lesson. This command simply returns the username you are currently using to access the system. This can be useful to check you have logged in correctly.
 
 - `pwd` (Print Working Directory)
-In other words, where am I? This command tells you which directory (or folder) you are currently operating in. This is important to know, because actions taken which do not specify an explicit alternate directory will result in changes being made to the directory you are currently in. Use this to make sure you're in the right place when deleting old files, and not accidentally deleting the contents of your coursework folder.
+In other words, where am I? This command tells you which directory (or folder) you are currently operating in.
 
 - `ls` (LiSt the contents of the current directory)
 Third question, what is there? (In philosophy this is called ontology!) This command gives you a list of all the files and folders located in your current working directory. This is very useful for navigating around your file system. Use it whenever you forget the name of the file you want to open.
