@@ -3,7 +3,7 @@
 -- Copyright (c) 2018, GNU GPL v3.0
 -- See the IV_DB_CW.pdf for description and analysis of the database design
 
-CREATE TABLE IF NOT EXISTS buildings (
+CREATE TABLE IF NOT EXISTS buildings(
 gridRef VARCHAR(30) NOT NULL,
 material VARCHAR(30),
 PRIMARY KEY (gridRef)
