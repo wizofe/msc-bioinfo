@@ -23,7 +23,7 @@ FOREIGN KEY (gridRef) REFERENCES buildings(gridRef)
 CREATE TABLE IF NOT EXISTS measures (
 measID int(10) UNSIGNED,
 roomID INT(10) UNSIGNED,
-rtime DATETIME NOT NULL,
+rtime TIME NOT NULL,
 temperature FLOAT(6),
 humidity FLOAT(6),
 genus VARCHAR(30),
@@ -53,8 +53,8 @@ INSERT INTO rooms (gridref, rtype, rspace, aspect) VALUES
   ('AA2', 'kitchen', 225, 'west');
 
 INSERT INTO measures (measID, roomID, rtime, temperature, humidity, genus, species) VALUES
-  (10, 1, CURRENT_TIMESTAMP, 33, 2.3, 'Aspergillus', 'versicolor'),
-  (22, 2, CURRENT_TIMESTAMP, 27, 9.18, 'Aspergillus', 'fumigatus'),
-  (11, 2, CURRENT_TIMESTAMP, 27, 91.5, 'Aspergillus', 'nidulans'),
-  (15, 2, CURRENT_TIMESTAMP, 27, 80, 'Aspergillus', 'versicolor'),
-  (11, 5, CURRENT_TIMESTAMP, 27, 62.35, 'Aspergillus', '');
+  (10, 1, CURRENT_TIME, 33, 2.3, 'Aspergillus', 'versicolor'),
+  (22, 2, CURRENT_TIME, 27, 9.18, 'Aspergillus', 'fumigatus'),
+  (11, 2, CURRENT_TIME, 27, 91.5, 'Aspergillus', 'nidulans'),
+  (15, 2, CURRENT_TIME, 27, 80, 'Aspergillus', 'versicolor'),
+  (11, 5, CURRENT_TIME, 27, 62.35, 'Aspergillus', '');
