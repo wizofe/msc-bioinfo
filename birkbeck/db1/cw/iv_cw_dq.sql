@@ -24,3 +24,5 @@ WHERE rtype = 'kitchen' AND aspect = 'west'
 GROUP BY genus, species
 ORDER BY 3 DESC
 LIMIT 10
+
+--
